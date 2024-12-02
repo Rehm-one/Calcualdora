@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root { 
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #17171C;
+
+  --fondo: #171717; /*#F1F2F3*/
+  --fondo-calculadora: #F1F2F3; 
+  --texto: #000000; /*#FFFFFF*/
+  --primario : #4B5EFC;
+  --secundario: #c8c9cf;
+  --terciario: #FFFFFF;
+
+  --box-shadow: 0 0 50px rgba(24, 59, 235, 0.599);
+
+
+
+}
+
+body{ 
+
+  background-color: var(--fondo);
+  color: var(--texto);
+  transition: 1000ms;
+
+}
+
+
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+#root{ 
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  
+}
+
+
+[data-theme ='oscuro' ] { 
+
+  --fondo: #F1F2F3;
+  --fondo-calculadora: #17171C; 
+  --texto: #ffffff;
+  --primario : #0818ae;
+  --secundario: #4E505F;
+  --terciario: #2E2F38;
+}

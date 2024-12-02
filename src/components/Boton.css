@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+button{ 
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--terciario);
+    font-size: 2rem;
+    color:var(--texto);
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+button:active{ 
+    transform: scale(1.02);
+}
+
+button.gris{ 
+    background-color: var(--secundario);
+} 
+
+button.operacion{ 
+    background-color: var(--primario);
+}

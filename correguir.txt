@@ -1,0 +1,2 @@
+correcciones : 
+que se salga el resultado de la calculadora cuando hay muchos digitos no se puede seguir operando. 
